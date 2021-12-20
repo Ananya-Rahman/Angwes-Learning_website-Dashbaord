@@ -1,0 +1,475 @@
+/* Teacher Responsive here */
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+   
+    .wallet-crd-body h6,  .wallet-crd-body h4{
+        font-size: 14px;
+
+    }
+    .exam-info-card{
+        margin-top: 10px;
+    }
+    .table-area .table-head-first .table-header-row th,
+    .table-area  .table-body-content .table-header-row td{
+        padding: 4px 10px 4px 10px;
+    }
+    .overflow-example{
+    padding-top: 40px;
+    overflow-x: auto;
+
+    }
+.exam-info-card, .exam-name-card {
+    padding: 11px;
+}
+.table-body .table-row .checked-action {
+    width: 150px;
+}
+/* td.txt_overflow{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/* .name-txt {
+    font-size: 15px;
+    line-height: 1.5rem;
+} */
+.exm-ques .name-txt {
+    border: none;
+    padding-left: 8px;
+    line-height: 2.0rem;
+}
+.exam-info-card, .exam-name-card{
+    height: 200px;
+    text-align: center;
+}
+.download-btn {
+    float: left;
+
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+.profile-account-cards{
+margin-top: 10px;
+}
+.table-top-box{
+    flex-direction: column;
+}
+.download-pdf{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+    .exam-info-card{
+        margin-top: 15px;
+    }
+    .exam-info-card, .exam-name-card {
+      text-align: center;
+      height: 250px;
+    }
+    .name-txt{
+        line-height: 2.0rem;
+    }
+    .list-grid-view {
+        margin-top: 10px;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .list-avatar-area {
+        margin-left: 12px;
+    }
+    
+    .wallet-form {
+        display: block;
+    }
+    .submit-btn-area{
+        margin-left: 39px;
+    }
+    .book-content {
+        margin-bottom: 1rem;
+    }
+    /* table-responsive here */
+
+    .tables-content-area .table-head-area{
+        display: none;
+    }
+    .tables-content-area , .tables-content-area .table-body-area ,
+    .tables-content-area .table-all-row , .tables-content-area td{
+        display: block;
+        width: 100%;
+    }
+    .tables-content-area .table-all-row{
+        margin-bottom: 15px;
+    }
+    .tables-content-area .table-all-row td{
+        position: relative;
+        text-align: right;
+        padding-left: 50%;
+        border: 1px solid #ddd;
+    }
+    .tables-content-area td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    /* table responsive end */
+    .table-bordered {
+      
+        border: none;
+    }
+    .cards-width .card_text {
+        font-size: 15px;
+    }
+    .overflow-example{
+        padding-top: 40px;
+        overflow-x: auto;
+    
+        }
+    .download_view_defaults {
+        display: inline-block;
+        justify-content: center;
+        align-items: start;
+        margin-top: 20%;
+    }
+    .download_view_defaults .download-btns-area ,
+    .download_view_defaults .view-btns-area{
+        margin-bottom: 10px; 
+    }
+    .scnd-crdss {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width: 768px) {
+    .table-top-box{
+        flex-direction: column;
+    }
+    .download-pdf{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .profile-account-cards{
+        margin-top: 10px;
+        }
+    /* .exam-info-card, .exam-name-card {
+        height: 300px;
+    } */
+    .exam-name-card {
+        text-align: center;
+        height: 290px;
+      }
+      .exam-info-card{
+        text-align: center;
+        height: 208px;
+      }
+      .names-title{
+        margin-top: 27px;
+      }
+      .name-txt{
+          line-height: 2.0rem;
+      }
+    .exam-info-card{
+        margin-top: 15px;
+    }
+    .list-grid-view {
+        margin-top: 10px;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .list-avatar-area {
+        margin-left: 12px;
+    }
+   
+    .card-area {
+        margin-left: 10%;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .e-book-img-gallery {
+        padding-bottom: 5px;
+    }
+    .book-content {
+        margin-bottom: 1rem;
+    }
+    /* table responsive */
+
+    .tables-content-area .table-head-area{
+        display: none;
+    }
+    .tables-content-area , .tables-content-area .table-body-area ,
+    .tables-content-area .table-all-row , .tables-content-area td{
+        display: block;
+        width: 100%;
+    }
+    .tables-content-area .table-all-row{
+        margin-bottom: 15px;
+    }
+    .tables-content-area .table-all-row td{
+        position: relative;
+        text-align: right;
+        padding-left: 50%;
+        border: 1px solid #ddd;
+    }
+    .tables-content-area td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+.download_view_defaults {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27%;
+}
+.download_view_defaults .download-btns-area,
+.download_view_defaults .view-btns-area {
+    padding: 0px 4px 2px 8px;
+    font-size: 14px;
+
+}
+
+.download_view_defaults .download-btns-area ,
+.download_view_defaults .view-btns-area{
+    margin-bottom: 10px; 
+}
+    .table-bordered {
+      
+        border: none;
+    }
+    .overflow-example{
+        padding-top: 40px;
+        overflow-x: auto;
+    
+        }
+    .scnd-crdss {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 576px) {
+    .profile-account-cards{
+        margin-top: 10px;
+        }
+    .table-top-box{
+        flex-direction: column;
+    }
+    .entity-flex label{
+        margin-bottom: 1rem;
+    }
+    .download-pdf{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .table-top-box .f-group{
+        display: flex;
+
+    }
+    .f-label{
+        margin-bottom: 0px;
+        padding-right: 5px;
+    }
+    .exam-name-card {
+        text-align: center;
+        height: 270px;
+    }
+    .exam-info-card{
+        margin-top: 15px;
+        height: 200px;
+        text-align: center;
+    }
+    .name-txt {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .table-form h6.all-view-title{
+        padding-bottom: 18px;
+        padding-top: 6px;
+    }
+    .download-btn{
+       
+    padding: 15px 0px 15px 10px;
+
+      
+    }
+    .list-grid-view {
+        margin-top: 10px;
+        justify-content: start;
+      
+    }
+
+    .list-avatar-area {
+        margin-left: 12px;
+    }
+
+    .list-avatar-img {
+     display: none;
+    }
+
+    .order-list-content li {
+        line-height: 180%;
+    }
+    .cards-width .card_text {
+        font-size: 15px;
+    }
+    .card-area {
+        margin-left: 10%;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .action-download-btn,.action-view-btn{
+        padding: 4px;
+    }
+
+    .unorder-lists li {
+        font-size: 15px;
+    }
+    .view-box {
+
+        padding: 10px;
+    }
+    .view-img-top {
+        height: 80px;
+        width: 80px;
+    }
+
+    .page-title a,
+
+     .page-title-path a{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .flex-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .submit-btn-area{
+        margin-left: 25%;
+    }
+    a.page-link.last-child {
+        display: none;
+    }
+    .e-book-img-gallery .ebook-img {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .nav-tabs-all .expense-view {
+        margin-top: 9px;
+    }
+ 
+    .book-content {
+        margin-bottom: 1rem;
+    }
+    /* table responsive  */
+
+    .tables-content-area .table-head-area{
+        display: none;
+    }
+    .tables-content-area , .tables-content-area .table-body-area ,
+    .tables-content-area .table-all-row , .tables-content-area td{
+        display: block;
+        width: 100%;
+    }
+    .tables-content-area .table-all-row{
+        margin-bottom: 15px;
+    }
+    .tables-content-area .table-all-row td{
+        position: relative;
+        text-align: right;
+        padding-left: 50%;
+        border: 1px solid #ddd;
+    }
+    .tables-content-area td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 11px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .nav-tabs-all .expense-view {
+        margin-top: 0px;
+        margin-left: 3px;
+        padding: 6px;
+    }
+    .nav-tabs-all .payemnt-view {
+        margin-bottom: 4px;
+        padding: 6px;
+    }
+    .payment-btn-end {
+        padding: 4px;
+    }
+    .table-bordered {
+      
+        border: none;
+    }
+    .overflow-example{
+        padding-top: 40px;
+        overflow-x: auto;
+    
+        }
+    .assignment-all-cards {
+        margin-bottom: 10px;
+    }
+    .search-panel-area{
+        padding-left: 10px;
+    }
+    .download_view_defaults {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+    }
+    .download_view_defaults .download-btns-area ,
+    .download_view_defaults .view-btns-area{
+        margin-bottom: 10px; 
+    }
+
+    .download_view_defaults .download-btns-area,
+    .download_view_defaults .view-btns-area {
+        padding: 3px 2px 2px 2px;
+        font-size: 14px;
+
+    }
+    .payment-btn-end {
+        padding: 3px;
+    }
+    .payment-btn-end{
+        font-size: 12px;
+    }
+    .grid-list-item li{
+        font-size: 11px;
+    }
+    .scnd-crdss {
+        margin-top: 20px;
+    }
+    .j-control{
+        flex-direction: column;
+    }
+    .j-control .f-group{
+        display: flex;
+    }
+    .space-bottom{
+        margin-bottom: 1rem;
+    }
+}    

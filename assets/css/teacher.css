@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald&family=Poppins:wght@200&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+.content-body {
+    padding: 25px 25px 50px 25px;
+    box-shadow: 3px 1px 12px 3px #d8d2d2;
+
+}
+
+.select-label {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.j-control{
+    justify-content: space-between;
+    align-items:  center;
+}
+.page-title-path {
+
+    font-family: 'Poppins', sans-serif;
+}
+    .page-title a,
+    .page-title-path a {
+        font-size: 20px;
+        color: #000000;
+    }
+    
+.page-title-path a.active-paths{
+    color: #620F9A;
+}
+
+.all-nav-tabs .table-tab-view {
+    background: #6C63FF;
+    color: #fff;
+}
+
+.all-nav-tabs .table-tab-view.active {
+    background: #6C63FF;
+}
+
+.all-nav-tabs .list-tab-view {
+    background: #620F9A;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.all-nav-tabs .list-tab-view.active {
+    background: #620F9A;
+}
+
+.all-nav-tabs .grid-tab-view.active {
+    background: #04BFBF;
+}
+
+.all-nav-tabs .grid-tab-view {
+    background: #04BFBF;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.list-tooltip-area {
+    position: relative;
+}
+
+.tooltip-btn-area {
+    position: relative;
+}
+
+.tooltip-btn-area .action-tooltip-txt {
+    visibility: hidden;
+    position: absolute;
+    left: -6px;
+    bottom: 32px;
+    width: 44px;
+    background-color: #43425D;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 1px 0px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.tooltip-btn-area .action-tooltip-txt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #43425D transparent transparent transparent;
+}
+
+.tooltip-btn-area:hover .action-tooltip-txt {
+    visibility: visible;
+    opacity: 1;
+}
+
+.list-tooltip-area .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    left: -14px;
+    bottom: 47px;
+    width: 100px;
+    background-color: #4e73df;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 4px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-tooltip-area .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4e73df transparent transparent transparent;
+}
+
+.list-tooltip-area:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.all-view-title {
+    color: #6C63FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.table-top-box{
+justify-content: space-between;
+align-items: center;
+}
+.j-controol{
+    justify-content: space-between;
+    align-items: center; 
+}
+.download-pdf .download {
+    background: #fff;
+    border: 1px solid #707070;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.entity-flex {
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.f-controls{
+    max-width: 10rem;
+    height: calc(1em + 1rem + 1px);
+    padding: 0rem 0rem;
+}
+.j-content{
+    justify-content: center;
+}
+.f-controls-entity{
+    max-width: 5rem;
+    height: calc(1em + 1rem + 1px);
+    padding: 0rem 0rem;
+}
+ /* td.txt_overflow{
+    display: block;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+/* .form-row-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .search-panel {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 10px;
+}
+.download-btn{
+    text-align: center;
+}
+
+.download-btn button {
+    background: #fff;
+    border: 1px solid #707070;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.entity-flex {
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inline-label-row {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif
+} */
+
+.table-box-area::-webkit-scrollbar {
+    display: none;
+}
+
+/* ###########################table css here #################### */
+
+.tables-content-area {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.tables-content-area .table-body-area .table-all-row:nth-child(even) {
+
+    background-color: #f5f5f5;
+
+}
+
+.tables-content-area .table-head-area {
+    font-size: 15px;
+    text-align: center;
+    background: #2962FF;
+    color: #fff;
+}
+
+.table-head-area .table-all-row th,
+.table-body-area .table-all-row td {
+    padding: 9px;
+}
+
+img.avatar-img {
+    height: 40px;
+    width: 40px;
+}
+
+.table-body-area {
+    background: #fff;
+}
+
+.table-body-area .table-all-row td {
+    font-size: 15px;
+    text-align: center;
+}
+
+.checked-action i {
+    padding: 7px;
+    background: #fff;
+    font-size: 13px;
+    color: #04BFBF;
+    border-radius: 22px;
+}
+
+.checked-action .action-btn {
+    background: #04BFBF;
+}
+
+/*###### list grid view form start here########## */
+.list-view-title {
+    color: #620F9A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.grid-view-title {
+    color: #04BFBF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.list-avatar-img {
+    height: 127px;
+    width: 127px;
+}
+
+.list-grid-view {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #620F9A;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
+
+.order-list-content li {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    list-style: none;
+    line-height: 200%;
+}
+
+.check-btn-item {
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #fff;
+}
+
+.check-btn-item i {
+    margin-left: -6px;
+    float: left;
+    font-size: 13px;
+    color: #620F9A;
+
+}
+
+.pagination-all-lists .pagination-list-item a {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4F5C;
+}
+
+.pagination-all-lists .pagination-list-item.active a {
+    background: #3B86FF;
+    color: #FFFFFF;
+}
+
+.pagination-all-lists .pagination-list-item a:hover {
+    background: #3B86FF;
+    color: #FFFFFF;
+}
+
+/* ######## grid area css ############*/
+.card-area {
+    background: #04BFBF;
+    border: 1px solid #707070;
+    padding: 15px;
+}
+
+.card-avatar-image {
+    height: 70px;
+    width: 70px;
+}
+
+.card-body-area {
+    padding-top: 15px;
+    /* padding-bottom: 10px; */
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.grid-list-item li {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    list-style: none;
+    line-height: 1.5rem;
+    /* text-indent: 10px; */
+}
+
+.grid-action-btn {
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #fff;
+}
+
+.grid-action-btn i {
+    margin-left: -5px;
+    float: left;
+    font-size: 13px;
+    color: #04BFBF;
+}
+.grid-action-btn .chck-icon{
+    margin-left: -6px;
+    float: left;
+    font-size: 13px;
+    color: #04BFBF;
+}
+.card-area {
+    margin-top: 20px;
+}
+
+/* ################## Teacher -view content ################# */
+
+.view-box{
+    text-align: center;
+    padding: 40px;
+}
+.view-img-top {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #2962FF;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.name-title {
+    font-size: 18px;
+    color: #45BF55;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    padding: 5px 0px 5px 0px;
+
+}
+
+.title-list {
+    font-size: 18px;
+    color: #04BFBF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    padding: 5px 0px 18px 0px;
+}
+
+.description-box-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unorder-lists li {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+.left-border {
+    border-left: 1px solid #ddd;
+    text-align: left;
+}
+
+.right-boder {
+    border-right: 1px solid #ddd;
+    text-align: right;
+}
+
+
+
+/* ######################### Event Angwes css star ######################### */
+
+.action-download-btn {
+    background: #39AFD1;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.action-view-btn {
+    background: #45BF55;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table-row th,
+.table-body .table-row td {
+    text-align: left;
+}
+
+/* ######################### Wallet Angwes css start here ######################### */
+.wallet-crd-body {
+    background: #26225E;
+    text-align: center;
+    height: 130px;
+    padding: 30px;
+}
+
+.wallet-crd-body h6 {
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wallet-crd-body h4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wallet-body {
+    padding: 25px 25px 25px 25px;
+}
+
+.form-title {
+    background: #132035;
+}
+
+.form-title h6 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 15px;
+}
+
+.money-transfer-form-body {
+    border: 20px solid #2445BF;
+    margin-top: 50px;
+}
+
+.wallet-form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.label-txt {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.submit-btn-area {
+    width: 120px;
+    background: #26225E;
+    margin-bottom: 20px;
+    margin-top: 13px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.submit-btn-area button {
+   
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ############################## Library section ######################### */
+
+.available-btn{
+    background: #39AFD1;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.overdate{
+    color: #FA5C7C;
+    background: #fa5c7c4f;
+    padding: 8px;
+    border-radius: 5px;
+}
+.paid{
+    color: #0ACF97;
+    background: #0acf9740;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* ######################### E-books Collection #################### */
+
+.book-content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .img-content {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ 
+  }
+
+  .overly-body{
+    background: #F0582F;
+  }
+  .overlay-card-body{
+    height: 100%;
+    width: 100%;
+  }
+  .book-content:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;   
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+  
+  }
+
+.card-book-btn-grps{
+    display: flex;
+
+} 
+
+.add-card{
+    background: #312783;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 8px 4px 8px;
+}
+.add-card:hover{
+    background: #fff;
+}
+.buy-now{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 8px 4px 8px;
+}
+.card-titles-ebook{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.rating-groups i{
+    color: #FFBB00;
+    font-size: 10px;
+    text-align: center;
+}
+.long-txt{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.life-lesson-txt{
+    padding-top: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.e-books-header{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ############################# payemt section start #################### */
+
+.filter-submit-btn {
+    background-color: #132035;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  }
+
+  .filter-submit-btn:hover{
+      color: #ffff;
+  }
+  .options{
+    color: #6C757D;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav-tabs-all .payemnt-view
+  {
+     color: #fff;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+  }
+  .nav-tabs-all .payemnt-view{
+    border: 2px solid #39AFD1;
+    color: #000000;
+  }
+
+  .nav-tabs-all .expense-view{
+   
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav-tabs-all .payemnt-view.active {
+    background-color: #39AFD1;
+    color: #fff;
+  }
+ 
+  .nav-tabs-all .expense-view.active {
+    background-color: #39AFD1;
+    color: #fff;
+  }
+
+  .nav-tabs-all .expense-view {
+    margin-left: 5px;
+    border: 2px solid #39AFD1;
+  }
+  .payment-btn-end{
+    background: #620F9A;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* ################################### parent section start ########################## */
+
+  .borderBottomLess{
+      border-bottom: none;
+
+  }
+  .border-left-right {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+  .tble-row-border td{
+      border-bottom: 1px solid #ddd;
+  }
+
+/* ################################ Subject Section start ####################### */
+
+.subject-header{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table-area .table-head-first {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background: #04BFBF;
+    color: #fff;
+}
+.table-area .table-head-first .table-header-row th,
+.table-area  .table-body-content .table-header-row td{
+    padding: 10px 30px 10px 30px;
+    border-left: 1px solid #F1F3FA;
+}
+.table-body-content .table-header-row tr{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+.table-area .table-body-content .table-header-row:nth-child(even) {
+
+   
+    background-color: #707070;
+    color: #F8F8F8;
+
+}
+.table-area .table-body-content .table-header-row:nth-child(odd) {
+
+    background-color: #E4E4E4;
+    
+
+}
+.tables .table_heads .tab_rows th{
+    background: #313A46;
+    color: #F8F8F8;
+}
+.tables .table_heads .tab_rows th,
+.tables .table-body-content .tab_rows td
+{
+    border: none;
+}
+.tables .t-body .tab_rows:nth-child(even) {
+
+   
+    background-color: #F1F3FA;
+    color: #132035;
+
+}
+.tables .t-body .tab_rows:nth-child(odd) {
+
+    background-color: #E4E4E4;
+    color: #132035;
+    
+}
+.download_view_defaults .download-btns-area,
+.download_view_defaults .view-btns-area {
+    background: #39AFD1;
+    color: #F8F8F8;
+    font-size: 17px;
+    font-family:'Poppins', sans-serif;
+    padding: 3px 10px 3px 10px;
+
+}
+
+
+
+/* ########################## Angwes routine ########################## */
+
+ .submit-btn {
+    background-color: #132035;
+    color: #ffff;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .color-bg {
+    background-color: #6C757D;
+    color: #ffff;
+  }
+  .cards-width{
+    padding-bottom: 16px;
+    padding-top: 17px;
+  }
+
+.cards-width .card_text{
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .tables-header th{
+    background-color: #132035;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.table-body tr td{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-grps button{
+    background-color: #39AFD1;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.sm-header th{
+    text-align: center;
+    color: #000000;
+    background-color: #F1F3FA;
+}
+/*######################### Angwes Attandence ##################### */
+.table-defaults {
+    width: 100%;
+}
+.attadence-height{
+    height: 180px;
+}
+.crd-txt p {
+    color: #39AFD1;
+    line-height: 1.5rem;
+  }
+  .scnd-crdss {
+    background: #fff;
+    border: 1px solid rgb(131, 130, 130);
+    padding-top: 26px;
+}
+.color-list {
+    color: #6C63FF;
+  }
+  
+  .absent {
+    color: #04BFBF;
+  }
+  
+  .leave {
+    color: #D52727;
+  }
+  
+  .present {
+    color: #2962FF;
+  }
+  
+.tooltip-one {
+    position: relative;
+  }
+  
+  .tooltip-one:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .tooltip-one .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: white;
+    color: #000000;
+    border: 1px solid #04BFBF;
+    text-align: center;
+    padding: 1px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 1;
+    bottom: 115%;
+    left: -21px;
+    opacity: 0;
+    transition: opacity 300ms;  
+
+  }
+  
+  .tooltip-one .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    transition: opacity 300ms;  
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  .table-arrows {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .table-arrows i {
+    font-size: 11px;
+  }
+  
+  .table-defaults .tab-header th {
+    background-color: #132035;
+    color: #ffff;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .table-defaults td,
+.table-defaults th {
+  padding: 4px;
+  text-align: center;
+}
+  .table-bordered .tab-header th:hover {
+    background-color: #39AFD1;
+    color: #FFFF;
+  
+  }
+  
+  .second-rows {
+    background-color: #E4E4E4;
+  }
+  .second-rows td {
+      padding: 8px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif'Poppins', sans-serif;
+    border: 1px solid #F8F8F8;
+    cursor: pointer;
+  }
+
+
+  /* ########################## Assignment-section ################# */
+
+  .assignment-all-cards {
+    background: #6C63FF;
+    padding: 20px 0px 20px 0px;
+  }
+  .assignment-all-cards p{
+      color: #fff;
+      font-family:'Poppins', sans-serif ;
+      text-align: center;
+      font-size: 16px;
+      
+  }
+
+  /* ####################### Academic-Routine ###################### */
+  .table-areas .tbl-heading{
+    background: #fff;
+    color: #000000;
+  }
+  .tbl-heading .tble-row-area th{
+      font-weight: bold;
+  }
+  .tbl-heading .tble-row-area th,
+  .tble-body-content .tble-row-area td {
+    padding: 5px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 13px;
+}
+
+/* ############################ Academic Tutorial ############### */
+
+.video-top {
+    padding: 16px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.all-exm-btn{
+    background: #fff;
+    padding: 5px;
+    font-size: 16px;
+    color: #000000;
+    border: 2px solid #39AFD1;  
+}
+.all-exm-btn:hover{
+    color: #fff;
+    background-color: #39AFD1;
+}
+
+/* #################################take exam section start ################### */
+
+.info-title{
+    color: #45BF55;
+    font-size: 17px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 500;
+}
+
+.exam-info-card, .exam-name-card{
+    height: 250px;
+    padding: 26px;
+   box-shadow: -3px 5px 10px 7px #dddddd73;
+}
+/* .marks-indent{
+    font-size: 18px;
+    font-family:'Poppins', sans-serif ;
+} */
+/* .ques-cont {
+    justify-content: left;
+    align-items: center;
+} */
+.name-txt{
+    font-size: 18px;
+    font-family:'Poppins', sans-serif ;
+    line-height: 2.5rem;
+}
+.names-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.start-btn{
+    color: #fff;
+    background: #39AFD1;
+    padding: 6px;
+}
+.exm-ques .name-txt {
+    border: 1px solid #ddd;
+    padding-left: 8px;
+
+}
+
+/* ######################################### Profile section start ################### */
+.upload-area{
+text-align: center;
+width: 57%;
+}
+.profile-account-cards{
+    padding: 25px 25px 50px 25px;
+    box-shadow: 3px 1px 12px 3px #d8d2d2;   
+}
+.upload-img-area .upload{
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+}
+.save-changes-button{
+    background-color: #6C63FF;
+    color: #fff;
+    width: 50%;
+}
+.save-changes-btn{
+    text-align: center;
+}
+.camera-btn{
+    background-color: #E4E4E4;
+    width: 100%;
+    border-radius: 0px;
+}

@@ -1,0 +1,46 @@
+/* Laptop */
+@media (max-width:1399px) {
+
+
+}
+@media (min-width: 320px) and (max-width:1499px) {
+ 
+}
+@media (min-width: 320px) and (max-width: 1399px) {
+    
+}
+@media (min-width: 320px) and (max-width: 1299px) {
+ 
+
+
+}
+@media (min-width: 320px) and (max-width: 1199px) {
+    
+    
+}
+
+
+/* Normal (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+        
+   
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+    
+}
+@media (min-width: 767px) and (max-width: 991px){
+    
+ }
+
+/* small devices (320px)*/
+@media (max-width: 767px) {
+    
+}
+	
